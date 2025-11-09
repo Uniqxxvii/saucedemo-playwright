@@ -1,0 +1,19 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Node
+node_modules
+
+# Playwright artifacts
+playwright-report
+blob-report
+test-results
+
+# OS junk
+.DS_Store
