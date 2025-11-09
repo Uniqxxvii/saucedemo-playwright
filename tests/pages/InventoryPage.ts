@@ -11,7 +11,7 @@ export class InventoryPage {
 
   // // Cart icon in the top-right corner.
   get cartLink() {
-    return this.page.getByRole('link', { name: /cart/i });
+    return this.page.locator('.shopping_cart_link');
   }
 
   // // Returns a specific product card by its name.
