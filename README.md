@@ -6,6 +6,7 @@
 npm i
 npx playwright install
 npx playwright test --reporter=list
+```
 
 ## Test Conventions
 - Все тесты используют кастомный раннер: `import { test, expect } from '../fixtures/test'`.
