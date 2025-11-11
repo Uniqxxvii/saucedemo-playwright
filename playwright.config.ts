@@ -18,9 +18,19 @@ actionTimeout: 10_000, // Reasonable upper bound for user actions
 navigationTimeout: 15_000,
 },
 projects: [
+
 {
 name: 'chromium',
 use: { ...devices['Desktop Chrome'] }, // Known-good baseline; we can add Firefox/WebKit later
 },
+
+{
+  name: 'chromium-auth',
+  use: {
+    ...devices['Desktop Chrome'],
+    storageState: 'storage/auth.json', // // Reuse logged-in session
+  },
+},
+
 ],
 });
