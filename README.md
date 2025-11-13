@@ -27,18 +27,6 @@ npx playwright test --grep @regression
 - Структура: smoke → быстрые проверки; regression → сценарии; pages → POM; fixtures → глобальные фикстуры.
 
 
-# Structure
-
-tests/
-├── e2e/
-│   ├── smoke/
-│   ├── regression/
-│   ├── fixtures/
-│   └── pages/
-├── playwright.config.ts
-├── .github/workflows/playwright.yml
-
-
 # Features
 
 - Playwright + TypeScript + ESLint + Prettier
