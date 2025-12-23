@@ -22,9 +22,9 @@ npx playwright test --grep @regression
 
 ## Test Conventions
 
-- Все тесты используют кастомный раннер: `import { test, expect } from '../fixtures/test'`.
-- Тестовые теги: `@smoke`, `@regression`.
-- Структура: smoke → быстрые проверки; regression → сценарии; pages → POM; fixtures → глобальные фикстуры.
+- All test use custom runner: `import { test, expect } from '../fixtures/test'`.
+- Tags: `@smoke`, `@regression`.
+- Structure: smoke - quick check; regression - scenarios; pages - POM; fixtures - global fixtures.
 
 
 # Features
