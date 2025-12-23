@@ -22,7 +22,7 @@ npx playwright test --grep @regression
 
 ## Test Conventions
 
-- All test use custom runner: `import { test, expect } from '../fixtures/test'`.
+- All tests use custom runner: `import { test, expect } from '../fixtures/test'`.
 - Tags: `@smoke`, `@regression`.
 - Structure: smoke - quick check; regression - scenarios; pages - POM; fixtures - global fixtures.
 
